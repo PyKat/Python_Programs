@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{       clrscr();
+	int A[10]={1,2,3,4,5}, pos=2, i,k=20;
+
+	for(i=0; i<5; i++)
+	{
+		printf("%d",A[i]);
+	}
+	printf("\n");
+	/*------------------DELETION-----------------*/
+	/*
+	for(i=pos;i<5;i++)
+	{
+		A[i] = A[i+1];
+	}
+
+	for(i=0; i<4; i++)
+	{
+		printf("%d",A[i]);
+	} */
+	/*------------------DELETION-----------------*/
+
+	/*------------------INSERTION-----------------*/
+	/*
+	for(i=5; i<pos; i--)
+	{
+		A[i+1]=A[i];
+	}
+	A[pos]=k;
+
+	for(i=0; i<5; i++)
+	{
+		printf("%d",A[i]);
+	}*/
+	/*------------------INSERTION-----------------*/
+ getch();
+}
